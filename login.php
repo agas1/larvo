@@ -1,8 +1,13 @@
 <?php
 session_start();
 
-$admin_username = 'admin@larvo.com.br';
-$admin_password = 'AIMINHAXERECAA111'; 
+require_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+$admin_username = $_ENV['ADMIN_USERNAME'];
+$admin_password = $_ENV['ADMIN_PASSWORD'];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'] ?? '';
