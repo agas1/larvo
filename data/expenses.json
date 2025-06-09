@@ -1,0 +1,30 @@
+[
+    {
+        "description": "Aluguel",
+        "amount": 1900,
+        "due_date": 4,
+        "paid": true,
+        "created_at": "2025-05-30 04:02:03"
+    },
+    {
+        "description": "internet",
+        "amount": 109,
+        "due_date": 10,
+        "paid": true,
+        "created_at": "2025-05-30 20:47:50"
+    },
+    {
+        "description": "Luz",
+        "amount": 51,
+        "due_date": 4,
+        "paid": false,
+        "created_at": "2025-05-30 20:48:10"
+    },
+    {
+        "description": "condom\u00ednio ",
+        "amount": 600,
+        "due_date": 5,
+        "paid": true,
+        "created_at": "2025-06-07 16:00:13"
+    }
+]

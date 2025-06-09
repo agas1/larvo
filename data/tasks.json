@@ -1,0 +1,26 @@
+[
+    {
+        "day": "S\u00e1bado",
+        "room": "Banheiro",
+        "task": "box externo",
+        "responsible": "Agatha",
+        "done": false,
+        "created_at": "2025-06-07 15:57:51"
+    },
+    {
+        "day": "Domingo",
+        "room": "Sala",
+        "task": "tirar o lixo ",
+        "responsible": "Amanda",
+        "done": false,
+        "created_at": "2025-06-07 16:06:56"
+    },
+    {
+        "day": "Sexta-feira",
+        "room": "\u00c1rea de Servi\u00e7o",
+        "task": "tirar o lixo ",
+        "responsible": "Agatha",
+        "done": true,
+        "created_at": "2025-06-07 16:07:11"
+    }
+]
